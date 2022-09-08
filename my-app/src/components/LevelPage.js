@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react'
-import {Grid, Image} from 'semantic-ui-react'
 import QuestionCard from './QuestionCard'
 import { useHistory } from "react-router-dom";
 

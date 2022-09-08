@@ -5,7 +5,7 @@ import React, {useState} from 'react'
      
     // const [dispayUser, setDisplayUser] = useState(false)
 
-    const [userMonsters, setUserMonsters] = useState(monsterList.filter((monster) => {
+    const [userMonsters] = useState(monsterList.filter((monster) => {
         return (
             monster.id <= user.level_id 
         )
@@ -13,7 +13,7 @@ import React, {useState} from 'react'
 
     console.log(user, userMonsters)
 
-       const monsterImage =  userMonsters.map((monster)=><img src={monster.image_url} height="60" width="60"/>)
+       const monsterImage =  userMonsters.map((monster)=><img src={monster.image_url}  alt= "" height="60" width="60"/>)
 
    
     return  user.level_id > 0 ? (

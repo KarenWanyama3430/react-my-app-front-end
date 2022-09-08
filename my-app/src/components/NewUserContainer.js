@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import AvatarCard from './AvatarCard'
-import { Button, Form, Card, Icon, Image } from "semantic-ui-react";
+import { Button, Form, Card } from "semantic-ui-react";
 import { useHistory } from "react-router-dom";
 
 
@@ -8,7 +8,7 @@ function NewUserContainer({allAvatars}){
 
     let history = useHistory();
     // console.log(allAvatars)
-    const [userInfo, setUserInfo] = useState({})
+    
     const [formData, setFormData] = useState({
         name: "",
         // avatar_id: "",
