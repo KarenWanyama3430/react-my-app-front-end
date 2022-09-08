@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import AvatarCard from './AvatarCard'
-import { Button, Form, Card } from "semantic-ui-react";
-import { useHistory } from "react-router-dom";
+import { Button, Form, Card } from "https://react.semantic-ui.com/";
+import { useHistory } from "https://www.npmjs.com/package/react-router-dom";
 
 
 function NewUserContainer({allAvatars}){

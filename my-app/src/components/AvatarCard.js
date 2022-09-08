@@ -1,5 +1,5 @@
 // import React, { useState } from "react";
-import { Card, Image } from "semantic-ui-react";
+import { Card, Image } from "https://react.semantic-ui.com";
 
 function AvatarCard({avatar, handleImageClick}){
 

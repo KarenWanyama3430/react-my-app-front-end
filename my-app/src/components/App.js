@@ -1,4 +1,4 @@
-import {Switch, Route} from 'react-router-dom'
+
 import React from 'react'
 import NavBar from './NavBar'
 import LoginPage from './LoginPage'
