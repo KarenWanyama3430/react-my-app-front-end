@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Button, Form,Image } from "semantic-ui-react";
+import { Button, Form,Image } from "https://react.semantic-ui.com/";
 
 
 function QuestionCard({level, monster, user, updateLevel}) {

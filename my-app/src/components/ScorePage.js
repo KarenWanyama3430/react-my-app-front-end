@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import ScoreCard from './ScoreCard';
-import { useHistory } from "react-router-dom";
+
 
 function ScorePage() {
 
